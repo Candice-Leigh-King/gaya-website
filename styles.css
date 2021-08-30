@@ -183,6 +183,8 @@ a:hover{color:rgba(189, 115, 76, 1);}
   color: black;
   }
 
+.uppercase a:hover{color:  rgba(189, 115, 76, 1);}  
+
 p a {color: #adadad;}
 
 
