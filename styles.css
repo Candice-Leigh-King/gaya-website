@@ -188,11 +188,11 @@ p a {color: #adadad;}
 /* header */
 
 header a,
-footer a,
+/* footer a, */
 nav a
   {
   text-decoration: none;
-  color: inherit;
+  color: rgba(238, 212, 189, 1);
   font-family: carlasans;
   text-transform: uppercase;
   font-weight: lighter;
