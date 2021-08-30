@@ -109,9 +109,10 @@ p:last-child
 h1
   {
   font-size: 3rem;
+  font-family: carlasans;
   }
 
-h2,h3 {font-family: 'Alice', serif;}
+h2,h3 {font-family: carlasans;}
 
 
 h2 {font-size: 2rem;}
