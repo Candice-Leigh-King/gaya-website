@@ -176,7 +176,7 @@ a:hover{color:rgba(189, 115, 76, 1);}
   } */
 
 
-.uppercase
+.uppercase a
   {
   text-transform:uppercase;
   font-size: 0.8rem;
