@@ -193,8 +193,9 @@ nav a
   {
   text-decoration: none;
   color: inherit;
-  font-family: 'Alice', serif;
+  font-family: carlasans;
   text-transform: uppercase;
+  font-weight: lighter;
   }
 
 .built p
@@ -211,7 +212,7 @@ nav a
 .built a
   {
   padding: 1rem;
-  color: rgba(238, 212, 189, 1);
+  color: rgba(189, 115, 76, 1);
   }
 
 
