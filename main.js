@@ -53,3 +53,12 @@ $(document).ready(function(){
 		nextArrow: false,
 		});
 });
+
+$(document).ready(function(){
+	$('.image-slider').slick({
+		draggable: true,
+		arrows: true,
+		adaptiveHeight: true,
+		autoplaySpeed: 5000
+	});
+});
