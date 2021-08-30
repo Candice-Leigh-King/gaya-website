@@ -197,8 +197,8 @@ nav a
   font-weight: lighter;
   }
 
-footer nav {color: rgba(189, 115, 76, 1);}
-footer nav:hover {color: rgba(128, 62, 30, 1);}
+footer nav a {color: rgba(189, 115, 76, 1);}
+footer nav a:hover {color: rgba(128, 62, 30, 1);}
 
 .built p
   {
