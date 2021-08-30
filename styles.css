@@ -202,7 +202,7 @@ nav a
   margin-bottom: 0.2%;
   padding-top: 1rem;
   text-transform: lowercase;
-  color: rgba(238, 212, 189, 1);
+  color: rgba(189, 115, 76, 1);
   }
 
 .built a:hover  {color: rgba(128, 62, 30, 1);}
