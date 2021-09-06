@@ -17,12 +17,6 @@ rgba(128, 62, 30, 1);
 
 @font-face
   {
-  font-family: milles;
-  src: url(/fonts/milles.ttf);
-  }
-
-@font-face
-  {
   font-family: gotham;
   src: url(/fonts/gotham.otf);
   }
@@ -70,24 +64,33 @@ body
 .right    {  text-align: right;    }
 .centered {  text-align: center;   }
 
-.padded   {  padding: 5%;    }
-.padded-1 {  padding: 1rem;  }
+.padded   {  padding: 4%;    }
+.p {  padding: 1rem;  }
 .padded-2 {padding: 40px;}
 .padded-sides {padding: 0% 5%;}
 .padded-bottom {padding-bottom: 5%;}
 .padded-top {padding-top: 10%;}
-.padded-quote {padding-top: 1%;}
+.padded-quote {padding-top: 5%;}
 .padded-sides-quotes {padding: 0% 20%;}
 .padded-top-nav {padding-top: 20%;}
 .padded-50 {padding-bottom: 100%;}
 
 .padded-top-footer {padding-top: 5%;}
 
-.border-sm {border: 1px solid rgba(128, 62, 30, 1);}
+.border-sm {border: 1px solid rgba(189, 115, 76, 1);}
+.border {border: 7px solid white;}
 
+.padding-top-left-bottom
+  {
+  padding: 40px 0px 40px 40px;
+  }
 
+.padding-top-right-bottom
+  {
+  padding: 40px 40px 0px 40px;
+  }
 
-
+.margin-bottom {margin-bottom: 5%;}
 
 p {
   line-height: 1.4;
@@ -109,9 +112,10 @@ p:last-child
 h1
   {
   font-size: 3rem;
+  font-family: carlasans;
   }
 
-h2,h3 {font-family: 'Alice', serif;}
+h2,h3 {font-family: carlasans;}
 
 
 h2 {font-size: 2rem;}
@@ -136,7 +140,7 @@ a {
     text-decoration: none;
 }
 
-a:hover{color:rgba(128, 62, 30, 1);}
+a:hover{color:rgba(189, 115, 76, 1);}
 
 .fancy-text
   {
@@ -144,6 +148,7 @@ a:hover{color:rgba(128, 62, 30, 1);}
   font-weight: normal;
   font-size: 2rem;
   color: black;
+  text-transform: uppercase;
   /* letter-spacing: 2px;
   word-spacing: 6px; */
   }
@@ -157,7 +162,7 @@ a:hover{color:rgba(128, 62, 30, 1);}
 .text-xl
   {
   font-size: 3rem;
-  color: rgba(128, 62, 30, 1);
+  color: white;
   }
 
 /* .quote
@@ -175,11 +180,14 @@ a:hover{color:rgba(128, 62, 30, 1);}
   } */
 
 
-.uppercase
+.uppercase a
   {
   text-transform:uppercase;
   font-size: 0.8rem;
+  color: black;
   }
+
+.uppercase a:hover{color:  rgba(189, 115, 76, 1);}
 
 p a {color: #adadad;}
 
@@ -187,14 +195,17 @@ p a {color: #adadad;}
 /* header */
 
 header a,
-footer a,
 nav a
   {
   text-decoration: none;
-  color: inherit;
-  font-family: 'Alice', serif;
+  color: rgba(238, 212, 189, 1);
+  font-family: carlasans;
   text-transform: uppercase;
+  font-weight: lighter;
   }
+
+footer nav a {color: rgba(189, 115, 76, 1);}
+footer nav a:hover {color: rgba(128, 62, 30, 1);}
 
 .built p
   {
@@ -202,7 +213,7 @@ nav a
   margin-bottom: 0.2%;
   padding-top: 1rem;
   text-transform: lowercase;
-  color: rgba(238, 212, 189, 1);
+  color: rgba(189, 115, 76, 1);
   }
 
 .built a:hover  {color: rgba(128, 62, 30, 1);}
@@ -210,7 +221,7 @@ nav a
 .built a
   {
   padding: 1rem;
-  color: rgba(238, 212, 189, 1);
+  color: rgba(189, 115, 76, 1);
   }
 
 
@@ -221,8 +232,12 @@ nav a:hover
   }
 
 .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1);
-text-shadow: 2px 2px 3px rgb(120,120,125);}
+.grow:hover
+  {
+  transform: scale(1.1);
+  text-shadow: 2px 2px 3px black;
+  color: white;
+  }
 
 header nav   {padding-top: 10%;}
 
@@ -245,10 +260,17 @@ header nav   {padding-top: 10%;}
   min-height: 100vh;
   }
 
-.banner-50
+.banner-team
   {
   background-size: cover;
   background-position: center;
+  min-height: 50vh;
+  }
+
+.banner-50
+  {
+  background-size: cover;
+  background-position: 50% 58%;
   min-height: 40vh;
   }
 
@@ -275,7 +297,7 @@ header nav   {padding-top: 10%;}
 
 .split-bg
   {
-  background: linear-gradient(-90deg, white 70%, rgb(238, 212, 189) 70%);
+  background: linear-gradient(-90deg, white 70%, rgba(189, 115, 76, 1) 70%);
   }
 
 .fixed
@@ -304,20 +326,20 @@ header nav   {padding-top: 10%;}
 
 .button {
     color: white;
-    border: 1px solid rgba(128, 62, 30, 1);
+    border: 1px solid rgba(189, 115, 76, 1);
     text-decoration: none;
     padding: 0.5rem 1.8rem;
     display: inline-block;
     font-size: 0.8rem;
     text-transform: uppercase;
-    background-color: rgba(128, 62, 30, 1);
+    background-color: rgba(189, 115, 76, 1);
       }
 
 .button:hover {
-  border: 1px solid  rgba(128, 62, 30, 1);
+  border: 1px solid  rgba(189, 115, 76, 1);
   background-color: transparent;
-  color: rgba(128, 62, 30, 1);
-  transition: 0.5s;
+  color: rgba(189, 115, 76, 1);
+  transition: 0.2s;
             }
 
 
@@ -332,9 +354,9 @@ header nav   {padding-top: 10%;}
   padding:0% 1%;
   border-radius: 0%;
   position: fixed;
-  color: rgba(128, 62, 30, 1);
+  color: rgba(189, 115, 76, 1);
   line-height: 8px;
-  font-family: 'Alice', serif;
+  font-family: gotham;
   cursor: pointer;
   }
 .mobile-menu
@@ -344,7 +366,6 @@ header nav   {padding-top: 10%;}
   right:0;
   left:0;
   bottom: 0;
-  background: linear-gradient(180deg, white 8%, #bd734c 80%);
   background-color: #bd734c;
   padding: 30% 10% 10% 10%;
   z-index: 10;
@@ -353,14 +374,13 @@ header nav   {padding-top: 10%;}
   display: block;
   text-decoration: none;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   }
 
 .mobile-menu p
   {
   font-size: 2rem;
-  font-family: 'Alice', serif;
-  font-weight: 100;
+  font-family: gotham;
   }
 
 .mobile-menu
@@ -370,10 +390,11 @@ header nav   {padding-top: 10%;}
 
 .cross
   {
-  top:0;
+  top:10px;
   right:16px;
   z-index: 10;
   font-size: 0.9rem;
+  font-size: 1.2rem;
   padding:0% 1%;
   border-radius: 0%;
   position: fixed;
@@ -383,14 +404,16 @@ header nav   {padding-top: 10%;}
   cursor: pointer;
 }
 
+p .cross {font-size: 1.3rem;}
+
 /* FORM */
 
-.enquiry input {font-family: 'Alice', serif;}
+.enquiry input {font-family: gotham;}
 
 
 .enquiry textarea {resize: none;}
 
-.enquiry input {font-family: 'Alice', serif;}
+.enquiry input {font-family: gotham;}
 
 .input-text:placeholder-shown+.input-label
   {
@@ -424,12 +447,12 @@ input[type=submit]
   white-space: nowrap;
   top: 50%;
   left: 50%;
-  color: #adadad;
+  color: rgba(189, 115, 76, 1);
   }
 
 .input-text
   {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.2;
   display: block;
   margin: 0;
@@ -437,15 +460,15 @@ input[type=submit]
   border: none;
   border-bottom: 2px solid rgb(120,120,125);
   transition: all .5s;
+  font-family: gotham;
   padding: .7rem 0 .5rem;
   background-color: rgba(0,0,0,0);
-  font-family: 'Alice', serif;
   color: rgb(120,120,125);
   }
 
 select, textarea
   {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.2;
   display: block;
   margin: 0;
@@ -455,26 +478,19 @@ select, textarea
   transition: all .5s;
   padding: .7rem 0 .5rem;
   background-color: rgba(0,0,0,0);
-  font-family: 'Alice', serif;
+  font-family: gotham;
   color: rgb(120,120,125);
 }
 
-form .button
+.input-text:focus
   {
-  color: #333333;
-  border: 1px solid #c8c4c4;
-  text-decoration: none;
-  padding: 0.5rem 1.5rem;
-  display: inline-block;
-  background-color: #c8c4c4;
-  font-size: 1rem;
-  text-transform: uppercase;
+  border-color: rgba(189, 115, 76, 1);
   }
 
-form .button:hover
+input:focus, textarea:focus
   {
-  color: #c8c4c4;
-  border: 1px solid #c8c4c4;
+  outline: 0;
+  border: 2x solid rgba(189, 115, 76, 1);
   }
 
 
@@ -490,10 +506,19 @@ form .button:hover
     padding: 10px;
 }
 
+
+.padding-top-left-bottom
+  {
+  padding: 0%
+  }
+
+.padding-top-right-bottom
+  {
+  padding: 0%
+  }
+
 .padded-sides-quotes {padding: 0% 5%;}
 
-
-h1 {font-size: 2rem;}
 
 h2 {font-size: 1.5rem;}
 
@@ -511,6 +536,11 @@ h4 {font-size: 1.2rem;}
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
+  }
+
+.split-bg
+  {
+  background: linear-gradient(-180deg, rgba(189, 115, 76, 1) 30%, white 30%);
   }
 
 .vertical-form-text

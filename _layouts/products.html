@@ -224,35 +224,34 @@
 
     </div>
 
-      <nav class="grid-middle page-nav mobile-menu">
-        <p class="cross exit right">╳</p>
-        <div class="padded-top-nav">
-          <p><a class="padded-sides text-med exit editable" href="/#about">about us</a></p>
-          <p><a class="padded-sides text-med exit editable" href="/#story">our story</a></p>
-          <p><a class="padded-sides text-med exit editable" href="/blog">shop</a></p>
-          <p><a class="padded-sides text-med exit editable" href="/contact">contact</a></p>
-        </div>
-      </nav>
+    <nav class="grid-middle page-nav mobile-menu">
+      <p class="cross exit right">╳</p>
+      <div class="padded-top-nav">
+        <h1><a class="padded-sides text-med exit editable" href="/">Gaya</a></h1>
+        <p><a class="padded-sides text-med exit editable" href="/#about">about us</a></p>
+        <p><a class="padded-sides text-med exit editable" href="/#story">our story</a></p>
+        <p><a class="padded-sides text-med exit editable" href="/signature-blend">shop</a></p>
+        <p><a class="padded-sides text-med exit editable" href="/contact">contact</a></p>
+      </div>
+    </nav>
 
   </header>
   <section class="grid-center">
     <div class="grid-centered padded split-bg">
-    <div class="col-5_md-6_sm-12 relative">
-
-
+    <div class="col-4_md-6_sm-12 relative">
       <img src="{{page.product_image}}">
     </div>
     <div class="col-5_md-6_sm-12 padded-sides products ">
       <h5 id="buy">{{page.h5-1}}</h5>
         <h1 class="fancy-text"> {{page.product-name}}</h1>
-      <h4 class="margin-bottom"> {{page.product-header}} </h4>
-      <p> {{page.product-description}} </p>
+      <h4 class="margin-bottom"> {{page.bold-product-description}} </h4>
+      <p> {{page.regular-product-description}} </p>
       <p> <i>"{{page.product-description-quote}}"</i> </p>
       <p class="stars"> {{page.reviews}}</p>
       <div class="shopify-buy-button-styles">
           <div id='product-component-{{page.product-number}}'></div>
        </div>
-       <p class="centered price"> {{page.product-price}} </p>
+       <p class="left price"> {{page.product-price}} </p>
     </div>
 
   </div>
