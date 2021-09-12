@@ -71,8 +71,10 @@ body
 .p {  padding: 1rem;  }
 .padded-2 {padding: 40px;}
 .padded-sides {padding: 0% 5%;}
+.padded-sides-1 {padding: 0% 3%;}
 .padded-bottom {padding-bottom: 5%;}
 .padded-top {padding-top: 10%;}
+.padded-top-1 {padding-top: 5%;}
 .padded-quote {padding-top: 5%;}
 .padded-sides-quotes {padding: 0% 20%;}
 .padded-top-nav {padding-top: 20%;}
@@ -83,6 +85,7 @@ body
 .padded-xl {padding: 10%;}
 .padded-flex-1 {padding: 3%;}
 .mug-padded {padding-top: 60%;}
+.padded-right {padding-right: 5%;}
 
 
 .padded-top-footer {padding-top: 5%;}
@@ -123,9 +126,10 @@ h1
   {
   font-size: 3rem;
   font-family: carlasans;
+  font-weight: 100;
   }
 
-h2,h3
+h2,h3,h4
   {
   font-family: carlasans;
   font-weight: normal;
@@ -159,6 +163,8 @@ h5
   font-weight: lighter;
   }
 
+.product-page h5  {color: black;}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -188,6 +194,11 @@ a:hover{color:rgba(189, 115, 76, 1);}
   font-size: 3rem;
   color: white;
   }
+
+.text-sm
+    {
+    font-size: 0.9rem;
+    }
 
 /* .quote
   {
@@ -278,6 +289,12 @@ header nav   {padding-top: 10%;}
   background-position: center;
   min-height: 90vh;
   }
+.product-banner
+  {
+  background-position: center;
+  background-size: cover;
+  min-height: 30vh;
+  }
 
 .shop-banner
   {
@@ -305,6 +322,11 @@ header nav   {padding-top: 10%;}
   background-position: 50% 35%;
   background-size: cover;
   min-height: 230vh;
+  }
+
+.light-gradient
+  {
+  background: linear-gradient(158deg, white -80%, rgb(238 212 189) 100%);
   }
 
 .banner-fixed
@@ -342,7 +364,7 @@ header nav   {padding-top: 10%;}
 
 .split-bg
   {
-  background: linear-gradient(-90deg, white 70%, rgba(189, 115, 76, 1) 70%);
+  background: linear-gradient(180deg, white 75%, rgb(238 212 189) 75%);
   }
 
 .fixed
