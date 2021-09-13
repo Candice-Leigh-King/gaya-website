@@ -604,20 +604,8 @@ input:focus, textarea:focus
   font-size: 1.5rem;
   }
 
-.mug-bg
-  {
-    background-position: 62% 200%;
-    background-size: contain;
-    background-color: #eddbc5;
-    background-repeat: no-repeat;
-    min-height: 200vh;
-    }
-
-.mug-padded
-  {
-  padding-top: 30%;
-  }
-
+.padded-sides-sm {padding: 0%;}
+.text-sm {font-size: 0.7rem;}
 
 .padded-left-1 {padding-left: 0%;}
 .padded-right-1 {padding-right: 0%;}
@@ -657,11 +645,6 @@ h6 {font-size: 1.3rem;}
   background-attachment: fixed;
   }
 
-.split-bg
-  {
-  background: linear-gradient(-180deg, rgba(189, 115, 76, 1) 30%, white 30%);
-  }
-
 .vertical-form-text
   {
   transform: translateX(0%) translateY(0%) rotate(0deg);
@@ -678,14 +661,8 @@ select, textarea {font-size: 1rem;}
 
 @media(max-width:468px) {
 
-  .mug-bg
-    {
-    background-position: 50% 100%;
-    min-height: 170vh;
-    }
-
-.mug-padded {
-    padding-top: 45%;
-
+  .text-sm {
+      font-size: 0.5rem;
+  }
 }
 }
