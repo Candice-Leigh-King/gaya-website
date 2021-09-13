@@ -603,6 +603,13 @@ input:focus, textarea:focus
   font-size: 1.3rem;
   }
 
+.built a
+  {
+  padding: 0% 5% 5% 5%;
+
+  }
+
+
 .padded-sides-sm {padding: 0%;}
 .text-sm {font-size: 0.7rem;}
 
@@ -647,21 +654,13 @@ h6 {font-size: 1.3rem;}
   background-attachment: fixed;
   }
 
-.vertical-form-text
-  {
-  transform: translateX(0%) translateY(0%) rotate(0deg);
-  position: relative;
-  font-size: 1.7rem;
-  top: 0%;
-  left: 0%;
-  }
-
 .input-text {font-size: 1rem;}
 
 select, textarea {font-size: 1rem;}
 }
 
 @media(max-width:468px) {
+
 
   .text-sm {
       font-size: 0.5rem;
