@@ -16,21 +16,21 @@
             <!-- Font Awesome Version 5 for Icons  -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
-            <meta property="og:title" content="{{page.title}}">
-            <meta property="og:description" content="{{page.meta-description}}">
-            <meta property="og:image" content="{{page.featured-image_path}}">
-            <meta property="og:url" content="{{page.url}}">
-            <meta name="twitter:card" content="{{page.meta-description}}">
+            <meta property="og:title" content="Signature Blend">
+            <meta property="og:description" content="Gaya is a local, sustainable and ethically sourced coffee company that produce unique blends of delicious coffee.">
+            <meta property="og:image" content="/images/gaya banner.jpg">
+            <meta property="og:url" content="/policy">
+            <meta name="twitter:card" content="Gaya is a local, sustainable and ethically sourced coffee company that produce unique blends of delicious coffee.">
             <meta name="og:site_name" content="The Social Media Retreat">
 
             <!-- twitter card -->
-            <meta name="twitter:card" content="{{page.summary}}" />
-            <meta name="twitter:description" content="{{page.twitter-description}}" />
-            <meta name="twitter:title" content="{{page.twitter-title}}" />
+            <meta name="twitter:card" content="Gaya is a local, sustainable and ethically sourced coffee company that produce unique blends of delicious coffee." />
+            <meta name="twitter:description" content="Gaya is a local, sustainable and ethically sourced coffee company that produce unique blends of delicious coffee." />
+            <meta name="twitter:title" content="Gaya Coffee | South Africa's brew" />
             <meta name="twitter:site" content="cazfit.co.za" />
-            <meta name="twitter:image" content="{{page.twitter_image}}" />
+            <meta name="twitter:image" content="/images/gaya banner.jpg" />
             <meta name="twitter:creator" content="CazFit | Personal Training, Hillcrest" />
-            <meta name="twitter:image:alt" content="{{page.twitter-image-alt}}"
+            <meta name="twitter:image:alt" content="Gaya Coffee | South Africa's brew"
 
             <!-- Add Google Fonts Here  -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -97,7 +97,7 @@
 
       </header>
 
-      {{content}}
+      
 
 
     <footer class="bg-white border-top grid padded-top padded-right">
