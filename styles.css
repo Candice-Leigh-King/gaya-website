@@ -237,7 +237,12 @@ nav a
 
 header {background-color: rgba(189, 115, 76, 1);}
 
-header p {font-size: 0.8rem;}
+ header p
+  {
+  font-family: gotham;
+  font-size: 0.7rem;
+  text-transform: lowercase;
+  }
 header .padded {padding: 7%;}
 header .padded-sides {padding: 0% 7%;}
 header p {padding-bottom: 5%;}
@@ -466,7 +471,7 @@ header nav   {padding-top: 10%;}
   font-family: gotham;
   }
 
-.text-sm p {font-size: 0.8rem;}
+.text-sm p {font-size: 0.8rem; }
 
 .mobile-menu
   {
