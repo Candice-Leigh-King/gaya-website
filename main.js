@@ -42,19 +42,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$('.fade-home2').slick({
-		autoplay: true,
-		infinite: true,
-		autoplaySpeed: 3100,
-		speed: 1000,
-		fade: true,
-		cssEase: 'linear',
-		prevArrow: false,
-		nextArrow: false,
-		});
-});
-
-$(document).ready(function(){
 	$('.image-slider').slick({
 		draggable: true,
 		arrows: true,
