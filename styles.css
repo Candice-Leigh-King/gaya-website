@@ -242,6 +242,7 @@ header {background-color: rgba(189, 115, 76, 1);}
   font-family: gotham;
   font-size: 0.7rem;
   text-transform: lowercase;
+  line-height: 5px;
   }
 header .padded {padding: 7%;}
 header .padded-sides {padding: 0% 7%;}
